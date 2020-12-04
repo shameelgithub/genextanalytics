@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Genext Analytics</title>
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Belleza|Calistoga|Capriola|Corben|Cormorant+Upright|Gentium+Basic|Miltonian|Molle:400i|Montserrat|Montserrat+Alternates|Orbitron|Playfair+Display|Proza+Libre|Quantico|Righteous|Roboto|Roboto+Condensed|Roboto+Slab|Tomorrow|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono|Wire+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/blog_css_style.css">
+  <link rel="icon" href="image/favicon.ico">
+
+<!--
+<link href="https://getbootstrap.com/docs/4.4/examples/blog/blog.css" rel="stylesheet">
+  -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+  <body data-gr-c-s-loaded="true">
+    <div class="container">
+  <header class="blog-header py-3 ">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+<!--
+      <div class="col-4 pt-1">
+        <a class="text-muted" href="#">Subscribe</a>
+      </div>
+-->
+      <div class="col-4 text-center">
+        <!--
+        <a class="blog-header-logo text-dark" href="#"><i class="far fa-question-circle"></i></i>H4WQ <sub><h6>How,What,When,Why,Where Questions</h6></sub></a>
+        -->
+        <a class="blog-header-logo text-warning" href="#">Genext Analytics<img class="website-logo" src="image/apple-touch-icon.png" alt="logo-img"><sub><h6>A Single Web to test your knowledge</h6></sub></a>
+  <!--
+        <img class="website-logo" src="image/apple-touch-icon.png" alt="logo-img">
+  -->
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center text-dark">
+        <a class="text-muted text-dark" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+        </a>
+        <a class="btn-signup btn btn-sm btn-dark text-warning" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2 text-dark">
+    <!--<nav class="nav d-flex justify-content-between ">-->
+	<nav class="nav d-flex py-0 justify-content-between rounded">
+	  <a class="p-2 text-white text-warning" href="#">General Banking</a>
+	  <a class="p-2 text-white text-warning" href="#">Basel III</a>
+      <a class="p-2 text-white text-warning" href="#">Risk Management</a>
+	  <a class="p-2 text-white text-warning" href="#">Quantitative Finance</a>
+      <a class="p-2 text-white text-warning" href="#">Statistical Modelling</a>
+      <a class="p-2 text-white text-warning" href="#">Python Programming</a>
+      <a class="p-2 text-white text-warning" href="#">R Programming</a>
+      <a class="p-2 text-white text-warning" href="#">SAS Programming</a>
+      
+
+    </nav>
+  </div>
+ <!-- old jumbotron -->
+ <!--
+  <div class="jumbotron p-4 p-md-5 hoverable text-white rounded ">
+    <div class="col-md-12 px-0">
+	  <p class="d-inline-block mb-2 text-danger">Topic of the day</p>
+      <h1 class="display-4 font-italic">Random Article based on your interest</h1>
+      <p class="lead my-3">Most searched article for learning</p>
+      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p> 
+    </div>
+  </div>
+  -->
+  <!-- News jumbotron -->
+<div class="jumbotron text-center hoverable p-4">
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-md-4 offset-md-1 mx-3 my-3">
+
+      <!-- Featured image -->
+      <div class="view overlay">
+        <img src="image/Rplot.JPEG" class="img-fluid" alt="Sample image for first version of blog listing">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-left ml-3 mt-3">
+
+      <!-- Excerpt -->
+	  <!--
+      <a href="#!" class="green-text">
+        <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Work</h6>
+      </a>
+	  -->
+
+      <h4 class="h4 mb-4 text-dark"><strong>Black-Scholes option pricing</strong></h4>
+
+      <p class="font-weight-normal">The Black Scholes model, also known as the Black-Scholes-Merton (BSM) model, is a mathematical model for pricing an options contract. 
+	  In particular, the model estimates the variation over time of financial instruments. 
+	  It assumes these instruments (such as stocks or futures) will have a lognormal distribution of prices. 
+	  Using this assumption and factoring in other important variables, the equation derives the price of a call option.</p>
+      <p class="font-weight-normal">by <a><strong>Investopedia</strong></a>, 06/02/2020</p>
+
+      <a class="btn btn-warning">Read more</a>
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row -->
+
+</div>
+<!-- News jumbotron -->
+
+  <div class="row mb-auto">
+    <div class="col-md-3">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-2 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Risk Management</strong>
+          <h5 class="mb-0">Climate Risk</h5>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto"><h6>Climate risk refers to risk assessments based on formal analysis of the consequences, likelihoods and responses to the impacts of climate change and how societal constraints shape adaptation options.climate change and how societal constraints shape adaptation options.</h6></p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <!--<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-2 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Credit Risk Modelling</strong>
+          <h5 class="mb-0">Credit Risk</h5>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto"><h6>A credit risk is risk of default on a debt that may arise from a borrower failing to make required payments. In the first resort, the risk is that of the lender and includes lost principal and interest, disruption to cash flows, and increased collection costs. The loss may be complete or partial.</h6></p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <!--<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-2 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-warning">Python Programming</strong>
+          <h5 class="mb-0">Raspberry Pi</h5>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto"><h6>Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation in association with Broadcom. Early on, the Raspberry Pi project leaned towards the promotion of teaching basic computer science in schools and in developing countries.</h6></p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <!--<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+        </div>
+      </div>
+    </div>
+	    <div class="col-md-3">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-2 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-danger">Statistical Modelling</strong>
+          <h5 class="mb-0">Non Parametric test</h5>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto"><h6>Nonparametric statistics is the branch of statistics that is not based solely on parametrized families of probability distributions. Nonparametric statistics is based on either being distribution-free or having a specified distribution but with the distribution's parameters unspecified.</h6></p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <!--<svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+        </div>
+      </div>
+    </div>
+	
+  </div>
+</div>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <!--<h3 class="pb-4 mb-4 font-italic border-bottom">
+        From the Wikipedia
+      </h3>-->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Bellman equation</h2>
+        <p class="blog-post-meta">December 1, 2020 from <a href="#">Wikipedia</a></p>
+
+        <p>A Bellman equation, named after Richard E. Bellman, is a necessary condition for optimality associated with the mathematical optimization method known as dynamic programming.It writes the "value" of a decision problem at a certain point in time in terms of the payoff from some initial choices and the "value" of the remaining decision problem that results from those initial choices.This breaks a dynamic optimization problem into a sequence of simpler subproblems, as Bellman's “principle of optimality” prescribes</p>
+        <hr>
+        <p>The Bellman equation was first applied to engineering <a href="#">control theory</a>and to other topics in applied mathematics, and subsequently became an important tool in <a href="#">economic theory</a> though the basic concepts of dynamic programming are prefigured in John von Neumann and Oskar Morgenstern's Theory of Games and Economic Behavior and Abraham Wald's sequential analysis</p>
+        <blockquote>
+          <p>Almost any problem that can be solved using <strong>optimal control theory</strong> can also be solved by analyzing the appropriate Bellman equation.</p>
+        </blockquote>
+        <p> <em> </em> </p>
+        
+		<h2></h2>
+        <p></p>
+        <h3></h3>
+        <p></p>
+		<!--
+        <pre><code>Example code block</code></pre>
+        <p></p>
+        <h3></h3>
+        <p></p>
+        
+		<ul>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ul>
+        <p></p>
+        <ol>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+		-->
+        <p></p>
+      </div><!-- /.blog-post -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Low Default Portfolio Modelling</h2>
+        <p class="blog-post-meta">December 2, 2020 from <a href="#">DefaultRisk.com</a></p>
+
+        <p> <a href="#"></a></p>
+        <blockquote>
+          <p><strong></strong></p>
+        </blockquote>
+        <p><em></em></p>
+        <p></p>
+      </div><!-- /.blog-post -->
+
+      <div class="blog-post">
+        <h2 class="blog-post-title">Feature selection using Python</h2>
+        <p class="blog-post-meta">December 1, 2020 by <a href="#">Shakir</a></p>
+
+        <p></p>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p><em></em></p>
+        <p></p>
+      </div><!-- /.blog-post -->
+
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Older</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4 mb-3 bg-light rounded">
+        <h4 class="font-italic">About Genext Analytics</h4>
+        <p class="mb-0">We bring <em>Genext Analytics</em> </p>
+      </div>
+
+      <div class="p-4">
+        <h4 class="font-italic">Archives</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Oct 2020</a></li>
+          <li><a href="#">Nov 2020</a></li>
+
+        </ol>
+      </div>
+<!--
+      <div class="p-4">
+        <h4 class="font-italic">Follow us</h4>
+        <ol class="list-unstyled">
+          <li><i class="social-icon fab fa-facebook-f"></i> <a href="#">GitHub</a></li>
+          <li><i class="social-icon fab fa-twitter"></i> <a href="#">Twitter</a></li>
+          <li><i class="social-icon fab fa-instagram"></i> <a href="#">instagram</a> </li>
+          <li><i class="social-icon fab fa-facebook-f"></i> <a href="#">Facebook</a></li>
+          <li><i class="social-icon fas fa-envelope-square"></i><a href="#">Email</a> </li>
+        </ol>
+      </div>
+      -->
+    </aside><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+<footer class="blog-footer">
+
+  <p>
+    <h6 class="font-italic">Follow us</h6>
+    <i class="social-icon fab fa-github"></i> <a href="#">GitHub</a>
+    <i class="social-icon fab fa-twitter"></i> <a href="#">Twitter</a>
+    <i class="social-icon fab fa-instagram"></i> <a href="#">instagram</a>
+    <i class="social-icon fab fa-facebook-f"></i> <a href="#">Facebook</a>
+    <i class="social-icon fas fa-envelope-square"></i><a href="#">Email</a>
+    <hr>
+    <p>Website built for <a href="">Genext Analytics</a> by <a href="">Shameel Shakir</a></p>
+    <p>© Copyright 2020 Genext Analytics</p>
+<!-- <a href="#">Back to top</a> -->
+
+  </p>
+</footer>
+
+
+</body>
+</html>
